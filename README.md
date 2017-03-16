@@ -1,4 +1,4 @@
-# commands
+# linux_config
 Keeping track of useful Shell commands
 
 
