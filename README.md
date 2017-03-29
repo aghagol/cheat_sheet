@@ -22,7 +22,7 @@ git log --pretty=format: --name-only --diff-filter=A | sort - | sed '/^$/d'
 - Print list of tracked files by git (only existing): 
 
 ```sh
-git ls-tree -r master --name-only
+git ls-tree -r HEAD --name-only
 ```
 
 - Remove a file from all commits: 
