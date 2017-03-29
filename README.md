@@ -15,13 +15,19 @@ git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Crese
 
 - Print list of tracked files by git:
 
-`git log --pretty=format: --name-only --diff-filter=A | sort - | sed '/^$/d'`
+```sh
+git log --pretty=format: --name-only --diff-filter=A | sort - | sed '/^$/d'
+```
 
 - Print list of tracked files by git (only existing): 
 
-`git ls-tree -r master --name-only`
+```sh
+git ls-tree -r master --name-only
+```
 
 - Remove a file from all commits: 
 
-`git filter-branch -f --tree-filter 'rm -f file' HEAD`
+```sh
+git filter-branch -f --tree-filter 'rm -f file' HEAD
+```
 
