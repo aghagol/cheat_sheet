@@ -2,7 +2,7 @@
 Keeping track of useful Shell commands
 
 
-### copy specific files inside folders keeping the directory hierarchy structure
+### filter copied files keeping the directory structure intact
 ```sh
 rsync -av --include="*/" --include="*-pose.csv" --exclude="*" mo@air540:Desktop/HADComplianceGroundTruth1/ data/
 ```
