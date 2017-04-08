@@ -11,9 +11,9 @@ Then run the following script in the repo:
 
 git filter-branch --env-filter '
 
-OLD_EMAIL="aghagol@users.noreply.github.com"
-CORRECT_NAME="aghagolz"
-CORRECT_EMAIL="mohammad.aghagolzadeh@here.com"
+OLD_EMAIL="a@b.c"
+CORRECT_NAME="abc"
+CORRECT_EMAIL="c@d.e"
 
 if [ "$GIT_COMMITTER_EMAIL" = "$OLD_EMAIL" ]
 then
