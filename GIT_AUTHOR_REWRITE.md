@@ -1,3 +1,12 @@
+First clone bare repo:
+
+```sh
+git clone --bare https://github.com/user/repo.git
+```
+
+Then run the following script in the repo:
+
+```sh
 #!/bin/sh
 
 git filter-branch --env-filter '
@@ -17,3 +26,11 @@ then
     export GIT_AUTHOR_EMAIL="$CORRECT_EMAIL"
 fi
 ' --tag-name-filter cat -- --branches --tags
+```
+
+Finally, push the changes:
+
+```sh
+git push --force --tags origin 'refs/heads/*'
+```
+
