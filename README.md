@@ -1,2 +1,2 @@
 # Cheat Sheet
-Keeping track of useful Shell commands
+Keeping track of useful commands
