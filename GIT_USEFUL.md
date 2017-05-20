@@ -29,3 +29,8 @@ Follow annotated tags:
 ```bash
 git config --global push.followTags true
 ```
+Remove `origin/HEAD` pointer:
+
+```bash
+git remote set-head origin -d
+```
