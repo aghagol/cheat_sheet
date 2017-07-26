@@ -34,3 +34,9 @@ Remove `origin/HEAD` pointer:
 ```bash
 git remote set-head origin -d
 ```
+Create a new branch, commit any changes on that branch and swap back to the branch you started on:
+
+```bash
+[alias]
+    save = !sh -c 'export PREV=$(git symbolic-ref HEAD|cut -d/ -f3-) && git checkout -b "$1" && git commit -am "$1" && git checkout "$PREV"' -
+```
