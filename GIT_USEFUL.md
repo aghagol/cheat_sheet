@@ -5,6 +5,16 @@ Pretty log for git:
 ```bash
 git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --all"
 ```
+Ignore file changes
+
+```bash
+git update-index --assume-unchanged path/to/file
+```
+List `assume-unchanged` files:
+
+```bash
+git ls-files -v | grep -e "^[hsmrck]"
+```
 
 Print list of tracked files by git:
 
