@@ -1,5 +1,6 @@
 ```json
 {
+	"hot_exit": false,
 	"fade_fold_buttons": false,
 	"fold_buttons": false,
 	"font_size": 10,
