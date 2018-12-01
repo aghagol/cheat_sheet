@@ -9,4 +9,5 @@ git reset --hard HEAD{<ref log>}
 git pull --rebase origin master 
 git reset --hard HEAD~1 #cancel commits
 git reset --hard origin/master
+git submodule update --checkout --recursive
 ```
