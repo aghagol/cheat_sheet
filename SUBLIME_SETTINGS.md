@@ -13,6 +13,7 @@
 	"translate_tabs_to_spaces": false,
 	"trim_automatic_white_space": false,
 	"trim_trailing_white_space_on_save": true,
-	"word_wrap": false
+	"word_wrap": false,
+	"rulers": [100]
 }
 ```
