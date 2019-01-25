@@ -1,6 +1,6 @@
 Install `pycodestyle` (e.g. using pip).
 
-Configuration file `setup.cfg` for `pycodestyle` can be put in home directory. e.g.
+Configuration file for `pycodestyle` can be put in home directory. e.g. put the following in `~/setup.cfg`
 
 ```
 [bdist_wheel]
