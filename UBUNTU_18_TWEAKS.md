@@ -9,6 +9,7 @@ GNOME Tweak Tool
 ```bash
 sudo apt install gnome-tweak-tool
 ```
+Install 'disable screen shield' in Ubuntu Software.
 
 ---
 Fix Alt-tab to switch between windows instead of apps:
