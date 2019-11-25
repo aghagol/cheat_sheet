@@ -5,8 +5,12 @@
 		"command": "toggle_setting",
 		"args":
 		{
-		    "setting": "line_numbers"
+			"setting": "line_numbers"
 		}
+	},
+	{
+		"keys": ["alt+d"],
+		"command": "toggle_inline_diff",
 	}
 ]
 ```
